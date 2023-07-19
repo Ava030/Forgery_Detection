@@ -1,12 +1,12 @@
 **Image Forgery Detection with VGG16 and SVM**
 
-**Overview: **
+**Overview:**
 This project is aimed at building an image forgery detection system that can accurately distinguish between authentic and forged images. The forgery methods primarily focused on are copy-move and splicing.
 
 The copy-move forgery detection algorithm identifies regions within an image that have been copied and pasted elsewhere in the same image. The splice forgery detection algorithm identifies regions that have been cut from one image and pasted into another.
 
 
-**Methodology: **
+**Methodology:**
 We employ a two-step process that consists of feature extraction using VGG16 and then classification using a Support Vector Machine (SVM).
 
 
