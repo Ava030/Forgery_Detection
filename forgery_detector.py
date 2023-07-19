@@ -298,3 +298,9 @@ confusion_mat = confusion_matrix(test_labels, test_predictions)
 print("Confusion Matrix:")
 print(confusion_mat)
 
+#saving the classifier
+import pickle
+
+# Save the trained model to disk
+pickle.dump(svm_classifier, open("svm_classifier.pkl", 'wb'))
+
