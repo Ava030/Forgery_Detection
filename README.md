@@ -42,7 +42,18 @@ PIL
 
 **Running the Classifier:**
 
- To use the classifier, run the classifier.py Python script.
+ To use the classifier, run the classifier.py Python script (for a single image)
+
+ Run the classifier_dataset for a dataset. The directory structure of the dataset should look like this:
+ 
+test
+├── authentic
+├── copy-moved
+│   ├── images
+│   └── masks
+└── spliced
+    ├── images
+    └── masks
 
 
 
