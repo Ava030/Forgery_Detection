@@ -304,3 +304,6 @@ import pickle
 # Save the trained model to disk
 pickle.dump(svm_classifier, open("svm_classifier.pkl", 'wb'))
 
+from joblib import dump
+dump(svm_classifier, 'svm_model.joblib')
+
